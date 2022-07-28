@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  font-family: "Overpass", sans-serif;
+}
+
+.bodyText {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.red-text {
+  color: hsl(353, 100%, 62%);
+}
+
+.gray-blue {
+  color: hsl(240, 2%, 79%);
+}
+
+.blue-text {
+  color: hsl(207, 13%, 34%);
+}
+
+.btn-red {
+  color: hsl(353, 100%, 62%) !important;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+main {
+  margin-top: -3rem;
+}
+
+.font {
+  font-size: 15px;
+}
+
+@media (max-width: 1025px) {
+  .second {
+    margin-left: 20rem !important;
+  }
+
+  .third {
+    margin-top: 8rem;
+  }
+
+  .laptop {
+    width: 230% !important;
+  }
+
+  .laptop-text {
+    margin-left: 12rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .second {
+    margin-left: 12rem !important;
+  }
+
+  .editor {
+    width: 78% !important;
+    margin-left: 4rem !important;
+  }
+
+  .editor-text {
+    margin-top: 4rem;
+    margin-left: 25rem;
+    width: 150%;
+  }
+
+  .laptop-text {
+    margin-left: 5rem !important;
+    width: 100% !important;
+  }
+
+  .phone-text {
+    margin-left: 4rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .third {
+    height: 45rem !important;
+  }
+
+  .d-flex {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 425px) {
+  .nav-bar {
+    display: none !important;
+  }
+
+  .font {
+    font-size: 13px;
+  }
+
+  .second {
+    margin-left: 2rem !important;
+  }
+
+  .editor-text {
+    margin-left: 0rem;
+    width: 116%;
+  }
+
+  #navmenu {
+    background-color: rgb(253, 174, 94);
+    border-radius: 7px;
+    padding: 2rem 5rem;
+  }
+
+  .dropdown,
+  .nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dropdown button,
+  .login {
+    color: rgb(58, 58, 58) !important;
+  }
+
+  .login {
+    margin-left: -1rem !important;
+  }
+
+  .nav-btn-red {
+    padding: 0.5rem 1rem !important;
+  }
+
+  .dropdown-menu {
+    background-color: rgb(253, 186, 84);
+    border: none;
+  }
+
+  .phone-illustration {
+    width: 25rem !important;
+    margin-left: 1rem !important;
+  }
+
+  .phone-text {
+    margin-top: 3.5rem !important;
+  }
+
+  .row {
+    flex-direction: column !important;
+  }
+}
